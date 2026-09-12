@@ -1,470 +1,837 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ranjeet - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="container">
-            <h2 class="logo">RS</h2>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Hi, I'm <span class="highlight">Ranjeet</span></h1>
-                <p class="tagline">IT Student & Passionate Web Developer</p>
-                <p class="description">I create beautiful and functional websites using modern technologies</p>
-                <div class="hero-buttons">
-                    <button class="cta-btn" onclick="scrollToSection('projects')">View My Work</button>
-                    <button class="secondary-btn" onclick="scrollToSection('contact')">Get In Touch</button>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/ranjeet-dev123"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ranjeet-a1b87837a/"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://x.com/Ranjeet5zgm"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/_ranjeet___kumar_01"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="image-placeholder">
-                    <i class="fas fa-code"></i>
-                </div>
-            </div>
-        </div>
-    </section>
+```
+<title>Ranjeet - Portfolio</title>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm a passionate IT student currently pursuing my diploma in Information Technology. I love creating web applications and solving real-world problems through code.</p>
-                    
-                    <div class="about-details">
-                        <div class="detail-item">
-                            <strong>Name:</strong>
-                            <span>Ranjeet</span>
-                        </div>
-                        <div class="detail-item">
-                            <strong>Email:</strong>
-                            <span>ranjitkumar123bind@gmail.com</span>
-                        </div>
-                        <div class="detail-item">
-                            <strong>Location:</strong>
-                            <span>Mirzapur, Uttar Pradesh   (231303)</span>
-                        </div>
-                        <div class="detail-item">
-                            <strong>Education:</strong>
-                            <span>B.TECH IN COMPUTER SCIENCE (2rd Year)</span>
-                        </div>
-                    </div>
-                    
-                    <p>When I'm not coding, I enjoy learning new technologies, contributing to open-source projects, and staying updated with the latest web development trends.</p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat">
-                        <div class="stat-number">5+</div>
-                        <div class="stat-text">Projects Completed</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">1+</div>
-                        <div class="stat-text">Years Learning</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">100%</div>
-                        <div class="stat-text">Passionate</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<link rel="stylesheet" href="style.css">
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Frontend</h3>
-                    <div class="skill-item">
-                        <span>HTML5</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="90%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>CSS3</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>JavaScript</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="50%"></div>
-                        </div>
-                    </div>
-                </div>
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+>
 
-                <div class="skill-category">
-                    <h3>Backend</h3>
-                    <div class="skill-item">
-                        <span>PHP</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="65%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Python</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="60%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Java</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="55%"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Database & Tools</h3>
-                    <div class="skill-item">
-                        <span>MySQL</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="75%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Git & GitHub</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="80%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>VS Code</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="85%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    ```html
-<div class="projects-grid">
-
-    <!-- Project 1: RajAI -->
-    <div class="project-card">
-        <div class="project-image">
-            <i class="fas fa-robot"></i>
-        </div>
-
-        <div class="project-content">
-            <h3>RajAI — Local AI Assistant</h3>
-
-            <p>
-                A modern AI assistant frontend focused on a conversational
-                experience with a privacy-first and local-AI project concept.
-            </p>
-
-            <div class="project-tech">
-                <span>React</span>
-                <span>JavaScript</span>
-                <span>CSS</span>
-                <span>AI</span>
-            </div>
-
-            <div class="project-status">
-                <span>🚀 Frontend Live</span>
-            </div>
-
-            <div class="project-links">
-
-                <a href="https://github.com/ranjeet-dev123/RANJEET-AI"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-
-                <a href="https://ranjeet-ai-git-main-ranjeet8.vercel.app/"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
-
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Project 2: College Management System -->
-    <div class="project-card">
-        <div class="project-image">
-            <i class="fas fa-graduation-cap"></i>
-        </div>
-
-        <div class="project-content">
-            <h3>College Management System</h3>
-
-            <p>
-                A full-stack college administration and academic management
-                platform for managing students, teachers, attendance,
-                notices, reports and administrative operations.
-            </p>
-
-            <div class="project-tech">
-                <span>PHP</span>
-                <span>MySQL</span>
-                <span>JavaScript</span>
-                <span>HTML</span>
-                <span>CSS</span>
-            </div>
-
-            <div class="project-status">
-                <span>🚀 Live Application</span>
-            </div>
-
-            <div class="project-links">
-
-                <a href="https://gpmcms.akgdigitals.com/public/index"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="fas fa-external-link-alt"></i> Live Demo
-                </a>
-
-                <a href="https://github.com/ranjeet-dev123/college-management-system"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Project 3: Mirzapur Qaleen -->
-    <div class="project-card">
-        <div class="project-image">
-            <i class="fas fa-rug"></i>
-        </div>
-
-        <div class="project-content">
-            <h3>Mirzapur Qaleen</h3>
-
-            <p>
-                A PHP-based e-commerce platform focused on handmade carpets,
-                rugs, durries, flooring products and home-furnishing items,
-                with database-driven product and customer workflows.
-            </p>
-
-            <div class="project-tech">
-                <span>PHP</span>
-                <span>MySQL</span>
-                <span>MariaDB</span>
-                <span>JavaScript</span>
-                <span>HTML</span>
-                <span>CSS</span>
-            </div>
-
-            <div class="project-status">
-                <span>🔨 Local Development</span>
-            </div>
-
-            <div class="project-links">
-
-                <a href="https://github.com/ranjeet-dev123/E-commerce-based-project"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Project 4: Personal Portfolio -->
-    <div class="project-card">
-        <div class="project-image">
-            <i class="fas fa-user-tie"></i>
-        </div>
-
-        <div class="project-content">
-            <h3>Personal Portfolio</h3>
-
-            <p>
-                A responsive personal portfolio website showcasing my
-                technical skills, education, projects, development journey
-                and contact information with dark/light theme support.
-            </p>
-
-            <div class="project-tech">
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>JavaScript</span>
-                <span>Font Awesome</span>
-            </div>
-
-            <div class="project-status">
-                <span>🛠️ Active Project</span>
-            </div>
-
-            <div class="project-links">
-
-                <a href="https://github.com/ranjeet-dev123/my-portfolio"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-
-            </div>
-        </div>
-    </div>
-
-</div>
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+>
 ```
 
+</head>
+
+<body>
+
+```
+<!-- ==================== Navigation ==================== -->
+<nav id="navbar">
+    <div class="container">
+
+        <h2 class="logo">RS</h2>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+            <li>
+                <button id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </li>
+        </ul>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+</nav>
 
 
-    <!-- Education Section -->
-    <section id="education" class="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="timeline">
+<!-- ==================== Hero Section ==================== -->
+<section id="home" class="hero">
+    <div class="container">
 
-                <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2026- 2029</div>
-                    <div class="timeline-content">
-                        <h3>B.TECH IN CS(Computer Science)</h3>
-                        <p>Dr APJ ABDUL KALAM TECHNICAL UNIVERSITY (AKTU) - ..</p>
-                        <p>BBS COLLEGE ENGINEERING AND TECHNOLOGY PRAYAGRAJ</p>
-                        <p>Currently B. Tech 2nd year</p>
-                    </div>
-                </div>
+        <div class="hero-content">
 
-                    
-                <div class="timeline-item">
-                    <div class="timeline-date">2023- 2026</div>
-                    <div class="timeline-content">
-                        <h3>Diploma in Information Technology</h3>
-                        <p>Board Of Technicial Education Uttar Pradesh (BTEUP) - 75%</p>
-                        <p>Government Polytechnic, Mirzapur</p>
-                        <p>Completed Diploma In Information Technology</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2021 - 2023</div>
-                    <div class="timeline-content">
-                        <h3>Senior Secondary (XII)</h3>
-                        <p>UP Board - 84%</p>
-                        <p>Major: Physics, Chemistry, Mathematics</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2019 - 2021</div>
-                    <div class="timeline-content">
-                        <h3>Secondary (X)</h3>
-                        <p>UP Board - 80%</p>
-                    </div>
-                </div>
+            <h1>
+                Hi, I'm
+                <span class="highlight">Ranjeet</span>
+            </h1>
+
+            <p class="tagline">
+                IT Student & Passionate Web Developer
+            </p>
+
+            <p class="description">
+                I create beautiful and functional websites using modern technologies
+            </p>
+
+            <div class="hero-buttons">
+
+                <button
+                    class="cta-btn"
+                    onclick="scrollToSection('projects')"
+                >
+                    View My Work
+                </button>
+
+                <button
+                    class="secondary-btn"
+                    onclick="scrollToSection('contact')"
+                >
+                    Get In Touch
+                </button>
+
+            </div>
+
+            <div class="social-links">
+
+                <a
+                    href="https://github.com/ranjeet-dev123"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/ranjeet-a1b87837a/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a
+                    href="https://x.com/Ranjeet5zgm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/_ranjeet___kumar_01"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+            <div class="image-placeholder">
+                <i class="fas fa-code"></i>
             </div>
         </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>I'm always open to discussing new opportunities and interesting projects.</p>
-                    
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <strong>Email</strong>
-                            <span>ranjitkumar123bind@gmail.com</span>
-                        </div>
+    </div>
+</section>
+
+
+<!-- ==================== About Section ==================== -->
+<section id="about" class="about">
+    <div class="container">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <p>
+                    I'm a passionate IT student currently pursuing my
+                    B.Tech in Computer Science. I love creating web
+                    applications and solving real-world problems through code.
+                </p>
+
+                <div class="about-details">
+
+                    <div class="detail-item">
+                        <strong>Name:</strong>
+                        <span>Ranjeet</span>
                     </div>
-                    
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <strong>Phone</strong>
-                            <span>+91 8810842087</span>
-                        </div>
+
+                    <div class="detail-item">
+                        <strong>Email:</strong>
+                        <span>ranjitkumar123bind@gmail.com</span>
                     </div>
-                    
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <strong>Location</strong>
-                            <span>Mirzapur, Uttar Pradesh</span>
-                        </div>
+
+                    <div class="detail-item">
+                        <strong>Location:</strong>
+                        <span>Mirzapur, Uttar Pradesh (231303)</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <strong>Education:</strong>
+                        <span>B.TECH IN COMPUTER SCIENCE (2nd Year)</span>
+                    </div>
+
+                </div>
+
+                <p>
+                    When I'm not coding, I enjoy learning new technologies,
+                    contributing to open-source projects, and staying updated
+                    with the latest web development trends.
+                </p>
+
+            </div>
+
+
+            <div class="about-stats">
+
+                <div class="stat">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-text">Projects Completed</div>
+                </div>
+
+                <div class="stat">
+                    <div class="stat-number">1+</div>
+                    <div class="stat-text">Years Learning</div>
+                </div>
+
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-text">Passionate</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== Skills Section ==================== -->
+<section id="skills" class="skills">
+    <div class="container">
+
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-grid">
+
+            <!-- Frontend -->
+            <div class="skill-category">
+
+                <h3>Frontend</h3>
+
+                <div class="skill-item">
+                    <span>HTML5</span>
+
+                    <div class="skill-bar">
+                        <div
+                            class="skill-progress"
+                            data-width="90%"
+                        ></div>
                     </div>
                 </div>
 
-                <form class="contact-form" id="contact-form">
-                    <div class="form-group">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
+                <div class="skill-item">
+                    <span>CSS3</span>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p> Designed and developed by Infotech Indradhanush </p>
-            <div class="footer-links">
-                
-            </div>
-        </div>
-    </footer>
+                    <div class="skill-bar">
+                        <div
+                            class="skill-progress"
+                            data-width="85%"
+                        ></div>
+                    </div>
+                </div>
 
-    <script src="script.js"></script>
+                <div class="skill-item">
+                    <span>JavaScript</span>
+
+                    <div class="skill-bar">
+                        <div
+                            class="skill-progress"
+                            data-width="50%"
+                        ></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Backend -->
+            <div class="skill-category">
+
+                <h3>Backend</h3>
+
+                <div class="skill-item">
+                    <span>PHP</span>
+
+                    <div class="skill-bar">
+                        <div
+                            class="skill-progress"
+                            data-width="65%"
+                        ></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <span>Python</span>
+
+                    <div class="skill-bar">
+                        <div
+                            class="skill-progress"
+                            data-width="60%"
+                        ></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <span>Java</span>
+
+                    <div class="skill-bar">
+                        <div
+                            class="skill-progress"
+                            data-width="55%"
+                        ></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Database & Tools -->
+            <div class="skill-category">
+
+                <h3>Database & Tools</h3>
+
+                <div class="skill-item">
+                    <span>MySQL</span>
+
+                    <div class="skill-bar">
+                        <div
+                            class="skill-progress"
+                            data-width="75%"
+                        ></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <span>Git & GitHub</span>
+
+                    <div class="skill-bar">
+                        <div
+                            class="skill-progress"
+                            data-width="80%"
+                        ></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <span>VS Code</span>
+
+                    <div class="skill-bar">
+                        <div
+                            class="skill-progress"
+                            data-width="85%"
+                        ></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== Projects Section ==================== -->
+<section id="projects" class="projects">
+    <div class="container">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-grid">
+
+            <!-- Project 1: RajAI -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <i class="fas fa-robot"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <h3>RajAI — Local AI Assistant</h3>
+
+                    <p>
+                        A modern AI assistant frontend focused on a
+                        conversational experience with a privacy-first
+                        and local-AI project concept.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                        <span>AI</span>
+                    </div>
+
+                    <div class="project-status">
+                        <span>🚀 Frontend Live</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/ranjeet-dev123/RANJEET-AI"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://ranjeet-ai-git-main-ranjeet8.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Project 2: College Management System -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <h3>College Management System</h3>
+
+                    <p>
+                        A full-stack college administration and academic
+                        management platform for managing students, teachers,
+                        attendance, notices, reports and administrative operations.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="project-status">
+                        <span>🚀 Live Application</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://gpmcms.akgdigitals.com/public/index"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+
+                        <a
+                            href="https://github.com/ranjeet-dev123/college-management-system"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Project 3: Mirzapur Qaleen -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <i class="fas fa-rug"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <h3>Mirzapur Qaleen</h3>
+
+                    <p>
+                        A PHP-based e-commerce platform focused on handmade
+                        carpets, rugs, durries, flooring products and
+                        home-furnishing items, with database-driven product
+                        and customer workflows.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>MariaDB</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="project-status">
+                        <span>🔨 Local Development</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/ranjeet-dev123/E-commerce-based-project"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Project 4: Personal Portfolio -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A responsive personal portfolio website showcasing
+                        my technical skills, education, projects,
+                        development journey and contact information
+                        with dark/light theme support.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Font Awesome</span>
+                    </div>
+
+                    <div class="project-status">
+                        <span>🛠️ Active Project</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/ranjeet-dev123/my-portfolio"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== Education Section ==================== -->
+<section id="education" class="education">
+    <div class="container">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="timeline">
+
+            <!-- B.Tech -->
+            <div class="timeline-item">
+
+                <div class="timeline-date">
+                    2026 - 2029
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        B.TECH IN CS (Computer Science)
+                    </h3>
+
+                    <p>
+                        Dr. APJ Abdul Kalam Technical University (AKTU)
+                    </p>
+
+                    <p>
+                        BBS College of Engineering and Technology, Prayagraj
+                    </p>
+
+                    <p>
+                        Currently B.Tech 2nd Year
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- Diploma -->
+            <div class="timeline-item">
+
+                <div class="timeline-date">
+                    2023 - 2026
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        Diploma in Information Technology
+                    </h3>
+
+                    <p>
+                        Board of Technical Education Uttar Pradesh (BTEUP) - 75%
+                    </p>
+
+                    <p>
+                        Government Polytechnic, Mirzapur
+                    </p>
+
+                    <p>
+                        Completed Diploma in Information Technology
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- Class XII -->
+            <div class="timeline-item">
+
+                <div class="timeline-date">
+                    2021 - 2023
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        Senior Secondary (XII)
+                    </h3>
+
+                    <p>
+                        UP Board - 84%
+                    </p>
+
+                    <p>
+                        Major: Physics, Chemistry, Mathematics
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- Class X -->
+            <div class="timeline-item">
+
+                <div class="timeline-date">
+                    2019 - 2021
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        Secondary (X)
+                    </h3>
+
+                    <p>
+                        UP Board - 80%
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== Contact Section ==================== -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <div class="contact-content">
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+
+                <h3>Let's Connect</h3>
+
+                <p>
+                    I'm always open to discussing new opportunities
+                    and interesting projects.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <i class="fas fa-envelope"></i>
+
+                    <div>
+                        <strong>Email</strong>
+                        <span>ranjitkumar123bind@gmail.com</span>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <i class="fas fa-phone"></i>
+
+                    <div>
+                        <strong>Phone</strong>
+                        <span>+91 8810842087</span>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <i class="fas fa-map-marker-alt"></i>
+
+                    <div>
+                        <strong>Location</strong>
+                        <span>Mirzapur, Uttar Pradesh</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contact Form -->
+            <form
+                class="contact-form"
+                id="contact-form"
+            >
+
+                <div class="form-group">
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <input
+                        type="text"
+                        name="subject"
+                        placeholder="Subject"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <textarea
+                        name="message"
+                        placeholder="Your Message"
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+
+                <button
+                    type="submit"
+                    class="submit-btn"
+                >
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== Footer ==================== -->
+<footer class="footer">
+    <div class="container">
+
+        <p>
+            Designed and developed by Infotech Indradhanush
+        </p>
+
+        <div class="footer-links">
+        </div>
+
+    </div>
+</footer>
+
+
+<!-- ==================== JavaScript ==================== -->
+<script src="script.js"></script>
+```
+
 </body>
 
 </html>
