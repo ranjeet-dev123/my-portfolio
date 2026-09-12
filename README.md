@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  A modern personal portfolio showcasing my projects, technical skills, education, and development journey.
+  A personal portfolio showcasing my projects, technical skills, education, and development journey.
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-Ranjeet-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
   </a>
   <a href="https://x.com/Ranjeet5zgm">
-    <img src="https://img.shields.io/badge/X-Ranjeet-black?style=for-the-badge&logo=x" alt="X"/>
+    <img src="https://img.shields.io/badge/X-Ranjeet-000000?style=for-the-badge&logo=x" alt="X"/>
   </a>
 </p>
 
@@ -33,7 +33,7 @@
 🚀 **Portfolio Website:**
 **[Visit My Portfolio →](#)**
 
-> Replace the link above with your deployed portfolio URL when the website is hosted.
+> Replace `#` with your deployed portfolio URL when the website is hosted.
 
 ---
 
@@ -41,9 +41,9 @@
 
 Hi, I'm **Ranjeet**, a Computer Science student and developer from **Mirzapur, Uttar Pradesh, India**.
 
-I enjoy building practical web applications, designing responsive user interfaces, working with relational databases, developing backend systems, and exploring modern AI technologies.
+I enjoy building practical web applications, designing responsive interfaces, working with databases, developing backend systems, and exploring modern AI technologies.
 
-I started my development journey with **Information Technology**, where I developed a strong interest in web development and software engineering. I am currently pursuing **B.Tech in Computer Science** and continuously improving my programming, problem-solving, and development skills.
+I started my development journey with **Information Technology** and developed a strong interest in software and web development. I am currently pursuing **B.Tech in Computer Science** and continuously improving my programming, problem-solving, and development skills.
 
 ### 🎯 Current Focus
 
@@ -61,66 +61,72 @@ I started my development journey with **Information Technology**, where I develo
 
 # 💡 What I Build
 
-I mainly focus on building applications that solve practical problems.
+I focus on building practical applications that combine frontend interfaces, backend logic, databases, authentication, and real-world workflows.
 
 ```text
-Web Applications
-      │
-      ├── Frontend Interfaces
-      │
-      ├── Backend Systems
-      │
-      ├── Database Applications
-      │
-      ├── Management Systems
-      │
-      ├── E-Commerce Platforms
-      │
-      └── AI Interfaces
+                    Software Development
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+          ▼                ▼                ▼
+      Frontend          Backend          Database
+          │                │                │
+          ▼                ▼                ▼
+       Web UI           PHP / Java        MySQL
+          │                │                │
+          └────────────────┼────────────────┘
+                           │
+                           ▼
+                    Real-World Projects
+                           │
+             ┌─────────────┼─────────────┐
+             ▼             ▼             ▼
+         Management     E-Commerce       AI
+          Systems        Platforms    Interfaces
 ```
-
-My projects combine **UI design, backend development, databases, authentication, business logic, and real-world workflows**.
 
 ---
 
 # 🌟 Featured Projects
 
-## 🤖 Your Personal Local AI Assistant — RajAI
+## 🤖 RajAI — Your Personal Local AI Assistant
 
-### **Privacy-first • Fully Local • No Cloud • No API Keys**
+### Privacy-first • Fully Local • No Cloud • No API Keys
 
-RajAI is a modern **AI assistant frontend interface** inspired by the conversational experience of modern AI assistants.
+RajAI is a modern **AI assistant frontend interface** designed around a conversational AI experience.
 
-The current public deployment focuses on the **frontend experience and interface**.
-
-> ⚠️ **Project Status:** The currently deployed version is the frontend interface. Backend/local-AI components are part of the broader project development.
+The currently public deployment showcases the **frontend interface**. The broader project explores local AI technologies and assistant functionality.
 
 ### 🖥️ Live Frontend
 
-🚀 **Live Demo:**
+🚀 **[Open RajAI →](https://ranjeet-ai-git-main-ranjeet8.vercel.app/)**
 
-**https://ranjeet-ai-git-main-ranjeet8.vercel.app/**
+> ⚠️ **Deployment Note:** The public deployment currently represents the frontend interface. Backend and local-AI components are part of the broader project development.
 
-### 🛠️ Frontend Technology
+### 🛠️ Technology Stack
 
-
-\
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+</p>
 
 ### ✨ Highlights
 
 * 💬 ChatGPT-inspired conversational interface
 * ⚛️ React-based frontend
 * 🎨 Modern developer-focused UI
-* 📱 Responsive interface
-* 🌙 Modern dark UI experience
-* 🎙️ Interactive voice-oriented interface
-* 💬 Chat interface
-* 🧩 Component-based frontend architecture
-* ✨ Modern animations and interactions
+* 📱 Responsive design
+* 🌙 Modern dark interface
+* 🎙️ Voice-oriented interaction UI
+* 🧩 Component-based architecture
+* ✨ Interactive animations and UI elements
+* 🤖 Local-AI focused project concept
 
 ### 🔗 Repository
 
-**[View RajAI Repository →](https://github.com/ranjeet-dev123/RANJEET-AI)**
+**[💻 View RajAI Repository →](https://github.com/ranjeet-dev123/RANJEET-AI)**
 
 ---
 
@@ -136,21 +142,28 @@ The current public deployment focuses on the **frontend experience and interface
 
 ## 🌐 Live Project
 
-🚀 **Live Application:**
+🚀 **[Visit College Management System →](https://gpmcms.akgdigitals.com/public/index)**
 
-**https://gpmcms.akgdigitals.com/public/index**
-
-The project is deployed as a working web application.
+The application is deployed as a working web application.
 
 ---
 
 ## 📌 Project Overview
 
-The **College Management System (GPMCMS)** is a full-stack web application designed to digitize and simplify day-to-day college administration and academic operations.
+The **College Management System (GPMCMS)** is a full-stack web application designed to digitize and simplify college administration and academic operations.
 
-The system provides a centralized platform for managing students, teachers, attendance, academic information, notices, and administrative operations.
+The platform provides centralized management for students, teachers, attendance, academic information, notices, reports, and administrative workflows.
 
-The project demonstrates practical experience with **PHP backend development, MySQL database design, authentication, role-based workflows, responsive UI development, and database-driven applications.**
+The project demonstrates practical experience with:
+
+* PHP backend development
+* MySQL database integration
+* Authentication and sessions
+* Role-based workflows
+* CRUD operations
+* Responsive web development
+* Database-driven applications
+* Reporting and analytics
 
 ---
 
@@ -159,21 +172,21 @@ The project demonstrates practical experience with **PHP backend development, My
 ### 👨‍🎓 Student Management
 
 * Student records
-* Student information management
+* Student information
 * Academic information
 * Student status management
 
 ### 👨‍🏫 Teacher Management
 
 * Teacher records
-* Academic management
-* Attendance-related operations
-* Role-based functionality
+* Academic operations
+* Attendance-related functionality
+* Role-based access
 
 ### 🏫 Administration
 
 * Administrative dashboard
-* Role-based access
+* Role-based access control
 * College records
 * Academic management
 
@@ -182,7 +195,7 @@ The project demonstrates practical experience with **PHP backend development, My
 * Attendance tracking
 * Attendance records
 * QR-based attendance functionality
-* Attendance-related reporting
+* Attendance reporting
 
 ### 📢 Communication
 
@@ -199,40 +212,40 @@ The project demonstrates practical experience with **PHP backend development, My
 
 ### 🗄️ Database
 
-* MySQL database integration
-* Structured relational data
-* Database-driven application workflows
+* MySQL integration
+* Relational database structure
+* Database-driven workflows
+* CRUD operations
 
-### 📱 UI
+### 📱 User Interface
 
 * Responsive web interface
 * Dashboard-based navigation
-* User-friendly layouts
-* Mobile-friendly design
+* Mobile-friendly layouts
+* User-focused design
 
 ---
 
 ## 🛠️ Technology Stack
 
-
-
-
-
-\
-
-### 🔗 Live Application
-
-**[🚀 Visit College Management System →](https://gpmcms.akgdigitals.com/public/index)**
+<p>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white" alt="Composer"/>
+</p>
 
 ---
 
 # 🧶 Mirzapur Qaleen — Premium Handmade Carpets E-Commerce Platform
 
-### **Traditional Craft • Modern E-Commerce • PHP • MySQL/MariaDB • Responsive Web**
+### Traditional Craft • Modern E-Commerce • PHP • MySQL/MariaDB • Responsive Web
 
-Mirzapur Qaleen is a full-stack **PHP-based E-Commerce Platform** focused on showcasing traditional handmade carpets, rugs, durries, flooring products, home-furnishing products, and customized designs.
+Mirzapur Qaleen is a full-stack **PHP-based E-Commerce Platform** focused on handmade carpets, rugs, durries, flooring products, home-furnishing products, and customized designs.
 
-The project combines a responsive frontend with a PHP backend and relational database to create a complete product-management and customer-oriented e-commerce platform.
+The project combines a responsive frontend, PHP backend, and relational database to create a product-focused e-commerce platform.
 
 ---
 
@@ -240,7 +253,15 @@ The project combines a responsive frontend with a PHP backend and relational dat
 
 The project aims to bring traditional **Mirzapur carpet craftsmanship** into a modern digital environment.
 
-It provides a structured platform for displaying products, managing customers, handling product information, and supporting e-commerce workflows.
+It provides a structured platform for:
+
+* Product showcasing
+* Product categorization
+* Customer management
+* Order-related workflows
+* Product information management
+* Customer enquiries
+* Database-driven content
 
 ---
 
@@ -249,7 +270,7 @@ It provides a structured platform for displaying products, managing customers, h
 ### 🛍️ E-Commerce
 
 * Product catalog
-* Product listing
+* Product listings
 * Product categories
 * Product details
 * Shopping-oriented interface
@@ -283,7 +304,7 @@ It provides a structured platform for displaying products, managing customers, h
 
 ### 🗄️ Database
 
-* MySQL/MariaDB
+* MySQL / MariaDB
 * Database-driven products
 * Customer records
 * Order information
@@ -299,12 +320,15 @@ It provides a structured platform for displaying products, managing customers, h
 
 ## 🛠️ Technology Stack
 
-
-
-
-
-
-\
+<p>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP"/>
+</p>
 
 ### 🔗 Source Code
 
@@ -316,9 +340,12 @@ It provides a structured platform for displaying products, managing customers, h
 
 ## 🎨 Frontend Development
 
-
-
-\
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+</p>
 
 ### Frontend Skills
 
@@ -327,16 +354,19 @@ It provides a structured platform for displaying products, managing customers, h
 * JavaScript fundamentals
 * DOM manipulation
 * Responsive layouts
-* UI components
 * Interactive interfaces
+* Component-based UI
 * React fundamentals
 
 ---
 
 ## ⚙️ Backend Development
 
-
-\
+<p>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+</p>
 
 ### Backend Skills
 
@@ -344,20 +374,23 @@ It provides a structured platform for displaying products, managing customers, h
 * Server-side programming
 * Form processing
 * Session-based applications
-* Database integration
 * CRUD operations
+* Database integration
 * Java OOP fundamentals
 * Python fundamentals
 
 ---
 
-## 🗄️ Database
+## 🗄️ Database & Data
 
-\
+<p>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
+</p>
 
 ### Database Skills
 
-* Relational databases
+* Relational database concepts
 * MySQL
 * MariaDB
 * SQL queries
@@ -369,32 +402,45 @@ It provides a structured platform for displaying products, managing customers, h
 
 ## 🔧 Tools & Development Environment
 
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP"/>
+</p>
 
+---
 
-\
+# 🤖 AI & Emerging Technologies
 
-### Tools
+<p>
+  <img src="https://img.shields.io/badge/AI-Exploring-blueviolet?style=for-the-badge" alt="AI"/>
+  <img src="https://img.shields.io/badge/LLM-Applications-orange?style=for-the-badge" alt="LLM"/>
+  <img src="https://img.shields.io/badge/Ollama-Local%20AI-black?style=for-the-badge" alt="Ollama"/>
+</p>
 
-* Git
-* GitHub
-* Visual Studio Code
-* XAMPP
-* GitHub repositories
-* Local development environments
+Currently exploring:
+
+* Local AI applications
+* LLM interfaces
+* Ollama
+* AI assistant interfaces
+* RAG concepts
+* Vector search concepts
+* AI-powered applications
 
 ---
 
 # 📊 Skill Overview
 
-| Category             | Technologies                     |
-| -------------------- | -------------------------------- |
-| **Frontend**         | HTML5, CSS3, JavaScript, React   |
-| **Backend**          | PHP, Python, Java                |
-| **Database**         | MySQL, MariaDB                   |
-| **Version Control**  | Git, GitHub                      |
-| **Development**      | VS Code, XAMPP                   |
-| **AI Exploration**   | Local AI, LLM Interfaces, Ollama |
-| **Current Learning** | Java, OOP, DSA, Spring Boot      |
+| Category         | Technologies                     |
+| ---------------- | -------------------------------- |
+| 🎨 **Frontend**  | HTML5, CSS3, JavaScript, React   |
+| ⚙️ **Backend**   | PHP, Python, Java                |
+| 🗄️ **Database** | MySQL, MariaDB                   |
+| 🔧 **Tools**     | Git, GitHub, VS Code, XAMPP      |
+| 🤖 **AI**        | Local AI, LLM Interfaces, Ollama |
+| 🚀 **Learning**  | Java, OOP, DSA, Spring Boot      |
 
 ---
 
@@ -407,7 +453,7 @@ It provides a structured platform for displaying products, managing customers, h
 | **2021–2023** | Senior Secondary — XII           | UP Board                                           |
 | **2019–2021** | Secondary — X                    | UP Board                                           |
 
-## 📊 Academic Performance
+### 📊 Academic Performance
 
 | Qualification            |             Result |
 | ------------------------ | -----------------: |
@@ -420,7 +466,7 @@ It provides a structured platform for displaying products, managing customers, h
 
 # 🧑‍💻 Development Experience
 
-Through academic and personal projects, I have worked with:
+Through academic, personal, and practical projects, I have worked with:
 
 * 🌐 Responsive website development
 * 🖥️ PHP-based web applications
@@ -446,91 +492,85 @@ portfolio/
 └── README.md
 ```
 
----
+### 📄 `index.html`
 
-## 📄 `index.html`
-
-The main HTML document containing the complete portfolio structure.
-
-### Sections
+Main HTML document containing:
 
 * Navigation
-* Home / Hero
-* About Me
-* Technical Skills
+* Hero section
+* About section
+* Skills
 * Projects
 * Education
 * Contact
 * Footer
 
----
+### 🎨 `style.css`
 
-## 🎨 `style.css`
-
-Responsible for the visual presentation of the portfolio.
-
-### Includes
+Handles the visual design:
 
 * Responsive layouts
 * Typography
 * Colors
-* Navigation styling
+* Navigation
 * Hero section
 * Project cards
 * Skill bars
 * Education timeline
-* Contact form
+* Contact section
 * Dark/Light theme styling
-* Responsive design
 
----
+### ⚡ `script.js`
 
-## ⚡ `script.js`
-
-Responsible for interactive functionality.
-
-### Includes
+Handles interactive functionality:
 
 * Theme toggle
 * Mobile navigation
 * Smooth scrolling
 * Section interactions
 * Skill animations
-* Contact form handling
-* UI interactions
+* Contact interactions
+* UI behavior
 
 ---
 
 # 🌐 Portfolio Sections
 
 ```text
-                         ┌───────────────┐
-                         │     HOME      │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │    ABOUT      │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │    SKILLS     │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                    ┌────────────┴────────────┐
-                    │                         │
-                    ▼                         ▼
-             ┌──────────────┐        ┌──────────────┐
-             │   PROJECTS   │        │   EDUCATION  │
-             └──────┬───────┘        └──────┬───────┘
-                    │                       │
-                    └───────────┬───────────┘
-                                ▼
-                       ┌────────────────┐
-                       │    CONTACT     │
-                       └────────────────┘
+HOME
+ │
+ ├── Introduction
+ ├── Developer Profile
+ └── Social Links
+        │
+        ▼
+ABOUT
+ │
+ ├── Personal Information
+ ├── Education
+ └── Developer Journey
+        │
+        ▼
+SKILLS
+ │
+ ├── Frontend
+ ├── Backend
+ └── Database & Tools
+        │
+        ▼
+PROJECTS
+ │
+ ├── RajAI
+ ├── College Management System
+ └── Mirzapur Qaleen
+        │
+        ▼
+EDUCATION
+ │
+ └── Academic Timeline
+        │
+        ▼
+CONTACT
 ```
 
 ---
@@ -538,8 +578,6 @@ Responsible for interactive functionality.
 # ✨ Portfolio Features
 
 ### 🧭 Navigation
-
-The portfolio includes navigation links for:
 
 * Home
 * About
@@ -550,39 +588,31 @@ The portfolio includes navigation links for:
 
 ### 🌓 Dark / Light Mode
 
-A theme toggle allows users to switch between different visual modes.
+Theme switching functionality for a more flexible viewing experience.
 
 ### 📱 Responsive Design
 
-The interface is designed for:
+Designed for:
 
-* 💻 Desktop
+* 🖥️ Desktop
 * 💻 Laptop
 * 📱 Mobile
 * 📟 Tablet
 
-### 📊 Skill Progress
+### 📊 Skill Visualization
 
-Skills are presented using animated progress bars to visually represent the technologies used in my development journey.
+Skills are presented using visual progress indicators to showcase the technologies used throughout the development journey.
 
 ### 🗂️ Project Showcase
 
-Each project includes:
+Each featured project includes:
 
 * Project title
-* Description
+* Project description
 * Technology stack
-* Source code link
-* Live project link where available
-
-### 📬 Contact Section
-
-The portfolio includes:
-
-* Email
-* Phone
-* Location
-* Contact form
+* Features
+* Repository link
+* Live link where available
 
 ---
 
@@ -591,7 +621,7 @@ The portfolio includes:
 ## 1. Clone the Repository
 
 ```bash
-git clone <YOUR-PORTFOLIO-REPOSITORY-URL>
+git clone <ranjeet-devportfolio.netlify.app>
 ```
 
 ## 2. Navigate to the Project
@@ -620,7 +650,7 @@ or use the **Live Server** extension in Visual Studio Code.
 
 # 💻 Requirements
 
-For local development, you only need:
+For basic portfolio development:
 
 * Modern web browser
 * Visual Studio Code
@@ -633,8 +663,6 @@ No backend server is required for the basic portfolio interface.
 
 # 📱 Responsive Design
 
-The portfolio follows a responsive design approach so that the interface adapts to different screen sizes.
-
 | Device      | Support |
 | ----------- | ------- |
 | 🖥️ Desktop | ✅       |
@@ -644,21 +672,13 @@ The portfolio follows a responsive design approach so that the interface adapts 
 
 ---
 
-# 🌙 Theme Support
-
-The portfolio provides a **Dark/Light Mode** interface through the theme toggle.
-
-This improves usability and allows visitors to choose their preferred viewing experience.
-
----
-
 # 🔗 Project Links
 
 | Project                          | Live Demo                                                         | Repository                                                           |
 | -------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
 | 🤖 **RajAI**                     | [Live Frontend](https://ranjeet-ai-git-main-ranjeet8.vercel.app/) | [GitHub](https://github.com/ranjeet-dev123/RANJEET-AI)               |
-| 🎓 **College Management System** | [Live Application](https://gpmcms.akgdigitals.com/public/index)   | —                                                                    |
-| 🧶 **Mirzapur Qaleen**           | Local Development                                                 | [GitHub](https://github.com/ranjeet-dev123/E-commerce-based-project) |
+| 🎓 **College Management System** | [Live Application](https://gpmcms.akgdigitals.com/public/index)   | —  [https://github.com/ranjeet-dev123/College-Management-System]                                                                  |
+| 🧶 **Mirzapur Qaleen**           | Working on Local server                                                 | [GitHub](https://github.com/ranjeet-dev123/E-commerce-based-project) |
 
 ---
 
@@ -668,7 +688,7 @@ This improves usability and allows visitors to choose their preferred viewing ex
 | -------------------------------- | -------------------------- | ---------------------- | -------------------- |
 | 🤖 **RajAI**                     | AI Assistant Frontend      | React, JavaScript      | 🚀 Live              |
 | 🎓 **College Management System** | Full-Stack Web Application | PHP, MySQL, JavaScript | 🚀 Live              |
-| 🧶 **Mirzapur Qaleen**           | E-Commerce Platform        | PHP, MySQL, JavaScript | 🔨 Local Development |
+| 🧶 **Mirzapur Qaleen**           | E-Commerce Platform        | PHP, MySQL, JavaScript |  Working On local server on Xammp |
 
 ---
 
@@ -676,16 +696,16 @@ This improves usability and allows visitors to choose their preferred viewing ex
 
 ## Portfolio
 
-* [ ] Portfolio foundation
-* [ ] Responsive layout
-* [ ] Navigation
-* [ ] About section
-* [ ] Technical skills
-* [ ] Project showcase
-* [ ] Education timeline
-* [ ] Contact section
-* [ ] Dark/Light mode
-* [ ] Social media links
+* [x] Portfolio foundation
+* [x] Responsive layout
+* [x] Navigation
+* [x] About section
+* [x] Technical skills
+* [x] Project showcase
+* [x] Education timeline
+* [x] Contact section
+* [x] Dark/Light mode
+* [x] Social media links
 * [ ] Add project screenshots
 * [ ] Add downloadable resume
 * [ ] Improve animations
@@ -695,11 +715,11 @@ This improves usability and allows visitors to choose their preferred viewing ex
 
 ## Development Goals
 
-* [ ] Diploma in Information Technology
-* [ ] PHP & MySQL projects
-* [ ] Web development fundamentals
-* [ ] Git & GitHub
-* [ ] B.Tech CSE
+* [] Diploma in Information Technology
+* [] PHP & MySQL projects
+* [] Web development fundamentals
+* [] Git & GitHub
+* [] B.Tech CSE
 * [ ] Advanced Java
 * [ ] Data Structures & Algorithms
 * [ ] Spring Boot
@@ -719,7 +739,7 @@ This improves usability and allows visitors to choose their preferred viewing ex
               🌐 Web Development
                         │
                         ▼
-               PHP + MySQL
+                  PHP + MySQL
                         │
                         ▼
              🏗️ Real-World Projects
@@ -728,10 +748,10 @@ This improves usability and allows visitors to choose their preferred viewing ex
                   🎓 B.Tech CSE
                         │
                         ▼
-               ☕ Java + OOP
+                 ☕ Java + OOP
                         │
                         ▼
-                 🧠 DSA
+                    🧠 DSA
                         │
                         ▼
                 🚀 Spring Boot
@@ -740,7 +760,7 @@ This improves usability and allows visitors to choose their preferred viewing ex
              🌐 Full-Stack Development
                         │
                         ▼
-                ☁️ Cloud + AI
+                  ☁️ Cloud + AI
 ```
 
 ---
@@ -749,42 +769,42 @@ This improves usability and allows visitors to choose their preferred viewing ex
 
 ```text
 Java
-  │
-  ├── OOP
-  │
-  ├── Collections
-  │
-  └── Problem Solving
-          │
-          ▼
-         DSA
-          │
-          ▼
-     Spring Boot
-          │
-          ▼
-      REST APIs
-          │
-          ▼
-    MySQL / Database
-          │
-          ▼
-   Full-Stack Applications
-          │
-          ▼
-     Cloud Deployment
+ │
+ ├── OOP
+ │
+ ├── Collections
+ │
+ └── Problem Solving
+        │
+        ▼
+       DSA
+        │
+        ▼
+   Spring Boot
+        │
+        ▼
+    REST APIs
+        │
+        ▼
+ MySQL / Database
+        │
+        ▼
+Full-Stack Applications
+        │
+        ▼
+ Cloud Deployment
 ```
 
-Alongside this path, I am exploring:
+### 🤖 AI Exploration
 
 ```text
 Local AI
    │
    ▼
-LLMs
+  LLMs
    │
    ▼
-Ollama
+ Ollama
    │
    ▼
 AI Interfaces
@@ -800,7 +820,7 @@ AI Applications
 
 # 📬 Contact
 
-I'm open to discussing:
+I'm open to:
 
 * 💼 Internship opportunities
 * 🚀 Development projects
@@ -828,19 +848,19 @@ I'm open to discussing:
 <p align="center">
 
 <a href="https://github.com/ranjeet-dev123">
-<img src="https://img.shields.io/badge/GitHub-ranjeet--dev123-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-ranjeet--dev123-181717?style=for-the-badge&logo=github" alt="GitHub"/>
 </a>
 
 <a href="https://www.linkedin.com/in/ranjeet-a1b87837a/">
-<img src="https://img.shields.io/badge/LinkedIn-Ranjeet-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Ranjeet-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
 </a>
 
 <a href="https://x.com/Ranjeet5zgm">
-<img src="https://img.shields.io/badge/X-Ranjeet-000000?style=for-the-badge&logo=x" alt="X"/>
+  <img src="https://img.shields.io/badge/X-Ranjeet-000000?style=for-the-badge&logo=x" alt="X"/>
 </a>
 
 <a href="https://www.instagram.com/_ranjeet___kumar_01">
-<img src="https://img.shields.io/badge/Instagram-Ranjeet-E4405F?style=for-the-badge&logo=instagram" alt="Instagram"/>
+  <img src="https://img.shields.io/badge/Instagram-Ranjeet-E4405F?style=for-the-badge&logo=instagram" alt="Instagram"/>
 </a>
 
 </p>
