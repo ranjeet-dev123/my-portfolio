@@ -31,7 +31,8 @@
 # 🌐 Live Portfolio
 
 🚀 **Portfolio Website:**
-**[Visit My Portfolio →](ranjeet-devportfolio.netlify.app)**
+**(<a href="https://ranjeet-devportfolio.netlify.app/">[Visit My Portfolio →]
+</a>)**
 
 > Replace `#` with your deployed portfolio URL when the website is hosted.
 
