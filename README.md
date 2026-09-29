@@ -447,7 +447,7 @@ Currently exploring:
 
 | Year          | Qualification                    | Institution                                        |
 | ------------- | -------------------------------- | -------------------------------------------------- |
-| **2026–2029** | B.Tech — Computer Science        | BBS College of Engineering & Technology, Prayagraj |
+| **2026–2029** | B.Tech — Computer Science Engineering       | BBS College of Engineering & Technology, Prayagraj |
 | **2023–2026** | Diploma — Information Technology | Government Polytechnic, Mirzapur                   |
 | **2021–2023** | Senior Secondary — XII           | UP Board                                           |
 | **2019–2021** | Secondary — X                    | UP Board                                           |
