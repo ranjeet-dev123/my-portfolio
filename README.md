@@ -457,7 +457,7 @@ Currently exploring:
 | Qualification            |             Result |
 | ------------------------ | -----------------: |
 | **B.Tech CSE**           | Currently Pursuing |
-| **Diploma in IT**        |          Completed |
+| **Diploma in IT**        |         **75%** |
 | **Class XII — UP Board** |            **84%** |
 | **Class X — UP Board**   |            **80%** |
 
